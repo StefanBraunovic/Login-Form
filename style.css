@@ -68,6 +68,7 @@ li{
 }
 
 section h1{
+    color: rgb(114, 130, 146);
   margin: 10% 6% 30px 6%;
 }
 
@@ -115,6 +116,7 @@ label{
     border-radius: 5px;
     background-color: rgb(171, 228, 196);
     font-size: 20px;
+    color: rgb(101, 110, 106);
     height: 50px;
     margin-left: 22%;
     text-align: center;

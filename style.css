@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #edecf1;
+    position: relative;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navigation-wrapper{
+    display: flex;
+    float: right;
+    
+}
+.hed-container{
+    display: flex;
+float: right;
+}
+
+ul{
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+li{
+    list-style-type: none;
+    line-height: 1.5;
+    text-align: left;
+    color: #505050;
+}
+.signin_button{
+    justify-content: center;
+    text-align: center;
+    
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    background: #2c72c6;
+    border-radius: 4px;
+    height: 36px;
+    width: 86px;
+    border: none;
+}
+
+.hed-container p,h1{
+    justify-content: right;
+}
+.navigation-wrapper img{
+    margin-right: 10px;
+   height: 1em;
+   width: 1em;
+}
+
+.form-section{
+    height: 415px;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    margin-bottom: 120px;
+}
+
+
+
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+}
+h1,p{
+    text-align: center;
+}
+
+
+.form-input input{
+    border: 1px solid rgb(218, 254, 255);
+    margin: 10px 10px;
+    margin-left: 7%;
+    font-size: 16px;
+    display: block;
+    height: 30px;
+    width: 78%;
+}
+
+
+
+
+
+
+
+   
+

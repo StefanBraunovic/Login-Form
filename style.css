@@ -51,9 +51,7 @@ li{
     border: none;
 }
 
-.hed-container p,h1{
-    justify-content: right;
-}
+
 .navigation-wrapper img{
     margin-right: 10px;
    height: 1em;
@@ -69,7 +67,9 @@ li{
     margin-bottom: 120px;
 }
 
-
+section h1{
+  margin: 10% 6% 30px 6%;
+}
 
 .logo img{
     display: block;
@@ -79,7 +79,17 @@ li{
 }
 h1,p{
     text-align: center;
+    font-weight: 100;
 }
+
+
+form{
+    margin-bottom: 22px;
+  font-size: 14px;
+  color: #505050;
+  position: relative;
+}
+
 
 
 .form-input input{
@@ -91,6 +101,31 @@ h1,p{
     height: 30px;
     width: 78%;
 }
+
+
+label{
+    margin: 10px 10px;
+    margin-left: 29px;
+    font-size: 16px;
+}
+
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(171, 228, 196);
+    font-size: 20px;
+    height: 50px;
+    margin-left: 22%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.btn img{
+    margin-right: 10px;
+    height: 1em;
+    width: 1em;
+}
+
 
 
 

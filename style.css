@@ -1,139 +1,135 @@
-*{
-    margin: 0;
-    padding: 0;
-    
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #edecf1;
-    position: relative;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  background-color: #ede8fc;
+  position: relative;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
-.navigation-wrapper{
-    display: flex;
-    float: right;
-    
+.navigation-wrapper {
+  display: flex;
+  float: right;
 }
-.hed-container{
-    display: flex;
-float: right;
-}
-
-ul{
-    display: block;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-
-}
-li{
-    list-style-type: none;
-    line-height: 1.5;
-    text-align: left;
-    color: #505050;
-}
-.signin_button{
-    justify-content: center;
-    text-align: center;
-    
-    color: white;
-    margin-top: 15px;
-    margin-left: 10px;
-    margin-right: 15px;
-    background: #2c72c6;
-    border-radius: 4px;
-    height: 36px;
-    width: 86px;
-    border: none;
+.hed-container {
+  display: flex;
+  float: right;
 }
 
+ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+li {
+  list-style-type: none;
+  line-height: 1.5;
+  text-align: left;
+  color: #505050;
+}
+.signin_button {
+  justify-content: center;
+  text-align: center;
 
-.navigation-wrapper img{
-    margin-right: 10px;
-   height: 1em;
-   width: 1em;
+  color: white;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 15px;
+  background: #2c72c6;
+  border-radius: 4px;
+  height: 36px;
+  width: 86px;
+  border: none;
 }
 
-.form-section{
-    height: 415px;
-    width: 400px;
-    margin: 0 auto;
-    position: relative;
-    top: 70px;
-    margin-bottom: 120px;
+.navigation-wrapper img {
+  margin-right: 10px;
+  height: 1em;
+  width: 1em;
 }
 
-section h1{
-    color: rgb(114, 130, 146);
+.form-section {
+  height: 415px;
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+  margin-bottom: 120px;
+}
+
+section h1 {
+  color: rgb(114, 130, 146);
   margin: 10% 6% 30px 6%;
 }
 
-.logo img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em;
+.logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8em;
 }
-h1,p{
-    text-align: center;
-    font-weight: 100;
+.logo {
+  background-image: linear-gradient(rgb(255, 241, 241), rgb(242, 251, 253));
+  background-color: #9a81f5;
 }
 
+.logo p {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-stretch: wider;
+  font-weight: bold;
+  color: rgb(233, 244, 248);
+}
+h1,
+p {
+  text-align: center;
+  font-weight: 100;
+}
 
-form{
-    margin-bottom: 22px;
+form {
+  margin-bottom: 22px;
   font-size: 14px;
   color: #505050;
   position: relative;
 }
 
-
-
-.form-input input{
-    border: 1px solid rgb(218, 254, 255);
-    margin: 10px 10px;
-    margin-left: 7%;
-    font-size: 16px;
-    display: block;
-    height: 30px;
-    width: 78%;
+.form-input input {
+  border: 1px solid rgb(190, 240, 241);
+  margin: 10px 10px;
+  margin-left: 7%;
+  font-size: 16px;
+  height: 30px;
+  width: 78%;
+  text-align: right;
 }
 
-
-label{
-    margin: 10px 10px;
-    margin-left: 29px;
-    font-size: 16px;
+label {
+  margin: 10px 10px;
+  margin-left: 29px;
+  font-size: 16px;
 }
 
-
-.btn{
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(171, 228, 196);
-    font-size: 20px;
-    color: rgb(101, 110, 106);
-    height: 50px;
-    margin-left: 22%;
-    text-align: center;
-    padding: 10px 10px 10px 10px;
+.btn {
+  border: 5px solid rgb(142, 245, 186);
+  border-radius: 5px;
+  background-color: rgb(171, 228, 196);
+  font-size: 20px;
+  color: rgb(101, 110, 106);
+  height: 50px;
+  margin-left: 22%;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
 }
-.btn img{
-    margin-right: 10px;
-    height: 1em;
-    width: 1em;
+.btn img {
+  margin-right: 10px;
+  height: 1em;
+  width: 1em;
 }
-
-
-
-
-
-
-
-
-   
-
